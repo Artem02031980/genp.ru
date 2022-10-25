@@ -1,0 +1,419 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .se-hidden-xs{
+        position: absolute;
+        clip:rect(0 0 0 0);
+    }
+
+    .se-nodisplay-xs{
+        display: none;
+    }
+
+    /*se-header*/
+
+    .se-header__info {
+        margin-left: 0;
+    }
+
+    /*se-hero-carousel*/
+
+    .se-hero__carousel-heading{
+        font-size: 16px;
+    }
+    
+    /*se-hero*/
+
+    .se-hero-buldings{        
+        min-height: 150px;         
+    }
+
+    .se-hero-page__name_dark {        
+        padding: 0px 10px;        
+    }
+
+    .se-hero-works{        
+        min-height: 200px; 
+    }
+
+    /*se-cards*/
+
+    .se-cards__card-title{
+        min-height: auto;        
+    }
+    
+    .se-cards__card-title_min{
+        min-height: auto;        
+    }
+
+    .se-cards__card-text{
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+    /*se-card-icon*/
+
+    .se-card-icon-text{
+        font-size: 20px;
+    }
+
+    /*se-aside-scroll*/
+
+    .se-aside-scroll{
+        overflow-y: hidden;
+        height: auto;
+    }
+
+    /*se-footer*/
+
+    .se-footer__brand{        
+        background-size: contain;        
+    }
+
+    .se-footer__item{
+        margin-top: 25px;
+        padding-left: 20px;        
+    }
+    
+    .se-footer__item:first-child{
+        margin-top: 0;
+        padding-left: 20px;
+    }
+    
+    .se-footer__item:last-child{
+        margin-top: 25px;
+        padding-left: 20px;
+    } 
+
+    .se-footer-contact_address {
+        background-size: 3%;    
+    }
+
+    .se-footer-contact_mail {
+        background-size: 4%;    
+    }
+        
+    .se-footer-contact_mobile {
+        background-size: contain;           
+    }
+    
+    .se-footer-copyright{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    /*CONTACT*/
+
+    .se-contact-bg_address{
+        background: none;
+        padding-left: 0;
+    }   
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .se-hidden-sm{
+        position: absolute;
+        clip:rect(0 0 0 0);
+    }
+
+    .se-nodisplay-sm{
+        display: none;
+    }
+
+    /*se-header*/
+
+    .se-header__info {
+        margin-left: 0;
+    }
+
+    /*se-hero*/
+
+    .se-hero-buldings{        
+        min-height: 200px;         
+    }
+
+    .se-hero-works{        
+        min-height: 300px; 
+    }
+
+    /*se-cards*/
+
+    .se-cards__card-title{
+        min-height: auto;        
+    }
+    
+    .se-cards__card-title_min{
+        min-height: auto;        
+    }
+
+    .se-cards__card-text{
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+    /*se-card-icon*/
+
+    .se-card-icon-text{
+        font-size: 20px;
+    }
+
+    /*se-aside-scroll*/
+
+    .se-aside-scroll{
+        overflow-y: hidden;
+        height: auto;
+    }
+
+    /*se-partners*/
+    .se-slide-partners{
+        margin: 0 auto;
+    }
+
+    /*se-footer*/
+
+    .se-footer__brand{
+        width: 40%;        
+    }
+
+    .se-footer__item{
+        padding: 0;
+        margin-top: 25px;
+    }
+
+    .se-footer-text{
+        width: 75%;
+    }
+
+    .se-footer__item:first-child{
+        padding: 0;
+    }
+
+    .se-footer-contact_address {
+        background-size: contain;    
+    }
+        
+    .se-footer-contact_mobile {
+        background-size: contain;           
+    }
+    
+    .se-footer-copyright{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    /*CONTACT*/
+
+    .se-contact-bg_address{
+        background: none;
+        padding-left: 0;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .se-hidden-md{
+        position: absolute;
+        clip:rect(0 0 0 0);
+    }
+
+    /*se-header*/
+      
+    .se-header__info {
+        margin-left: 0;
+    }
+
+    /*se-hero-carousel*/
+
+    .se-hero__carousel-heading {
+        font-size: 16px;
+        text-align: left;     
+    }
+    .se-hero__carousel-text{
+        font-size: 14px;
+        text-align: left;
+    }
+
+    /*se-hero*/
+
+    .se-hero-buldings{        
+        min-height: 250px;         
+    }
+
+    /*se-cards*/
+
+    .se-cards__card-text{
+        min-height: 160px;
+        margin-bottom: 25px;
+    }
+
+    /*se-card-icon*/
+
+    .se-card-icon-text{
+        font-size: 16px;
+    }
+
+    /*se-aside-scroll*/
+
+    .se-aside-scroll{
+        overflow-y: hidden;
+        height: auto;
+    }
+
+    /*se-footer*/
+
+    .se-footer__brand{
+        width: 30%;        
+    }
+
+    .se-footer__item{
+        padding: 0;
+        margin-top: 25px;
+    }
+
+    .se-footer-text{
+        width: 75%;
+    }
+
+    .se-footer__item:first-child{
+        padding: 0;
+    }
+
+    .se-footer-contact_address {
+        background-size: contain;    
+    }
+        
+    .se-footer-contact_mobile {
+        background-size: contain;           
+    }
+    
+    .se-footer-copyright{
+        display: block;
+        text-align: right;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .se-hidden-lg{
+        position: absolute;
+        clip:rect(0 0 0 0);
+    }
+
+    /*se-header*/    
+
+    .se-header__nav-link_active{
+        font-size: 14px;
+    }    
+
+    .se-header__nav-link{
+        font-size: 14px;
+    }       
+
+    /*se-hero-carousel*/
+
+    .se-hero__carousel-caption {
+        text-align: left;
+        width: 75%;     
+    } 
+
+    .se-hero__carousel-heading {
+        display: inline-block;
+    }
+    
+    .se-hero__carousel-text{
+        display: inline-block;
+    }
+
+    /*se-hero*/
+
+    .se-hero-buldings{        
+        min-height: 300px;         
+    }
+
+    /*se-cards*/
+
+    .se-cards__card-text{
+        min-height: 180px;
+        margin-bottom: 25px;
+    }
+    
+    /*se-card-icon*/
+
+    .se-card-icon-text{
+        font-size: 16px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1649.98px) {
+
+    .se-hidden-xl{
+        position: absolute;
+        clip:rect(0 0 0 0);
+    }
+
+    /*se-header*/       
+
+    .se-header__nav-link_active{
+        font-size: 14px;
+    }
+
+    .se-header__nav-link{
+        font-size: 14px;
+    }
+    
+    /*se-hero*/
+
+    .se-hero__carousel-caption {
+        text-align: left;
+        width: 50%;     
+    } 
+
+    .se-hero__carousel-heading {
+        display: inline-block;
+    }
+    
+    .se-hero__carousel-text{
+        display: inline-block;
+    }
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1650px) {
+
+    .se-hidden-xxl{
+        position: absolute;
+        clip:rect(0 0 0 0);
+    }
+      
+    /*se-hero*/
+
+    .se-hero__carousel-caption {
+        text-align: left;
+        width: 40%;     
+    } 
+
+    .se-hero__carousel-heading {
+        display: inline-block;
+    }
+    
+    .se-hero__carousel-text {
+        display: inline-block;
+    }
+    
+    /*se-cards*/
+
+    .se-cards__card-text_min{
+        min-height: 75px;
+    }
+
+ }
